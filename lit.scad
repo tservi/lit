@@ -20,12 +20,51 @@ translate([1820,1400])
     cube([200,200,600], false);
 
 /*
-2 traverses 74x74x1550
+2 traverses 
+*/
+/*
+translate([20,200,451])    
+    cube([2000,74,74],false);   
+translate([20,1324,451])
+    cube([2000,74,74],false);
+*/
+/* 
+5 traverses : distance 381
+*/
+/*
+translate([220,25,524])
+    cube([74,1550,74], false);
+translate([601,25,524])
+    cube([74,1550,74], false);
+translate([982,25,524])
+    cube([74,1550,74], false);
+translate([1363,25,524])
+    cube([74,1550,74], false);
+translate([1744,25,524])
+    cube([74,1550,74], false); 
+*/
+/*
+5 traverses 74x74x1550
 */
 translate([220,25,451])
     cube([74,1550,74], false);
 translate([1744,25,451])
     cube([74,1550,74], false); 
+
+/*
+5 supports : espace de 281 
+74x74x2000
+*/
+translate([20,200,524])    cube([2000,74,74],false);   
+translate([20,481,524])
+    cube([2000,74,74],false);
+translate([20,762,524])
+    cube([2000,74,74],false);
+translate([20,1043,524])
+    cube([2000,74,74],false);
+translate([20,1324,524])
+    cube([2000,74,74],false);
+
     
 /*
 4 baguettes 10x10x600
@@ -70,20 +109,6 @@ translate([220,1570])
     cube([1600,15,700],false);
 
     
-/*
-5 supports : espace de 281 
-74x74x2000
-*/
-translate([20,200,524])
-    cube([2000,74,74],false);   
-translate([20,481,524])
-    cube([2000,74,74],false);
-translate([20,762,524])
-    cube([2000,74,74],false);
-translate([20,1043,524])
-    cube([2000,74,74],false);
-translate([20,1324,524])
-    cube([2000,74,74],false);
     
 /*
 1 pied de lit
